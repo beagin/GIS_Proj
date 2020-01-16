@@ -186,7 +186,7 @@ class mainWindow(QMainWindow):
         vbox.addWidget(label)
         vbox.addWidget(okBtn)
         self.dialog.setLayout(vbox)
-        self.dialog.setWindowTitle("地图投影信息")                   # 窗口标题
+        self.dialog.setWindowTitle("地图投影信息")                    # 窗口标题
         self.dialog.setWindowModality(Qt.ApplicationModal)          # 对话框模式：用户只有关闭弹窗后，才能关闭主界面
         self.dialog.exec_()
 
